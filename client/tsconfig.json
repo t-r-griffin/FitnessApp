@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "jsx": "react-native",
+    //"lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    //"noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true
+  },
+  "include": ["./**/*.tsx", "../.eslintrc.js"]
+}
